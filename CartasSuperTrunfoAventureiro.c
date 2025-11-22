@@ -8,7 +8,6 @@ int main() {
 printf("Bem vindo ao Super Trunfo Aventureiro\n");
 
 //Variáveis da primeira cidade
-
 char estado_1;
 char codigo_1[30];
 char nomeCidade_1[30];
@@ -83,6 +82,7 @@ scanf("%f", &PIB_2);
 printf("Número de pontos turísticos da cidade: ");
 scanf("%d", &nPontosTur_2);
 
+//Calculo da Densidade, PIB per Capita da cidade 2.
 DensidadePopulacional_2 = (float)(populacao_2 / area_2);
 printf("A Densidade Populacional da cidade em km² é: %.2f \n", DensidadePopulacional_2);
 

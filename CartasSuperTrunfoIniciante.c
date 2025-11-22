@@ -8,7 +8,6 @@ int main() {
 printf("Bem vindo ao Super Trunfo\n");
 
 //Variáveis da primeira cidade
-
 char estado_1;
 char codigo_1[30];
 char nomeCidade_1[30];
@@ -27,7 +26,6 @@ float PIB_2;
 int nPontosTur_2;
 
 //Dados da primeira cidade
-
 printf("Uma letra de 'A' a 'H': ");
 scanf(" %c", &estado_1);
 
@@ -51,7 +49,6 @@ scanf("%d", &nPontosTur_1);
 
 
 //Dados da segunda cidade
-
 printf("Uma letra de 'A' a 'H': ");
 scanf(" %c", &estado_2);
 
@@ -74,7 +71,6 @@ printf("Número de pontos turísticos da cidade: ");
 scanf("%d", &nPontosTur_2);
 
 //Impressão dos dados
-
 printf("\n----Carta 1----\n");
 printf("Estado: %c\n", estado_1);
 printf("Código: %s\n", codigo_1);
